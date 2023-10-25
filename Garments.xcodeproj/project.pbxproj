@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9394B8582ABCC6E900BCDE88 /* NewHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9394B8572ABCC6E900BCDE88 /* NewHomeView.swift */; };
+		9394B85A2ABCC70A00BCDE88 /* NewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9394B8592ABCC70A00BCDE88 /* NewListView.swift */; };
 		93F66F6B2A9F87FE00C41405 /* GarmentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F6A2A9F87FE00C41405 /* GarmentsApp.swift */; };
-		93F66F6D2A9F87FE00C41405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F6C2A9F87FE00C41405 /* ContentView.swift */; };
+		93F66F6D2A9F87FE00C41405 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F6C2A9F87FE00C41405 /* HomeView.swift */; };
 		93F66F6F2A9F87FF00C41405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F66F6E2A9F87FF00C41405 /* Assets.xcassets */; };
 		93F66F722A9F87FF00C41405 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F66F712A9F87FF00C41405 /* Preview Assets.xcassets */; };
 		93F66F7C2A9F87FF00C41405 /* GarmentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F7B2A9F87FF00C41405 /* GarmentsTests.swift */; };
 		93F66F862A9F87FF00C41405 /* GarmentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F852A9F87FF00C41405 /* GarmentsUITests.swift */; };
 		93F66F882A9F87FF00C41405 /* GarmentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F872A9F87FF00C41405 /* GarmentsUITestsLaunchTests.swift */; };
+		93F66F962A9F881F00C41405 /* Garments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F942A9F881F00C41405 /* Garments.xcdatamodeld */; };
+		93F66F982A9F889300C41405 /* GarmentsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F972A9F889300C41405 /* GarmentsDataController.swift */; };
+		93F66F9A2A9F8B1500C41405 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F992A9F8B1500C41405 /* ListView.swift */; };
+		93F66F9C2A9F8CB200C41405 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F66F9B2A9F8CB200C41405 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9394B8572ABCC6E900BCDE88 /* NewHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHomeView.swift; sourceTree = "<group>"; };
+		9394B8592ABCC70A00BCDE88 /* NewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListView.swift; sourceTree = "<group>"; };
 		93F66F672A9F87FE00C41405 /* Garments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F66F6A2A9F87FE00C41405 /* GarmentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentsApp.swift; sourceTree = "<group>"; };
-		93F66F6C2A9F87FE00C41405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93F66F6C2A9F87FE00C41405 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		93F66F6E2A9F87FF00C41405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F66F712A9F87FF00C41405 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93F66F772A9F87FF00C41405 /* GarmentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarmentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,10 @@
 		93F66F812A9F87FF00C41405 /* GarmentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarmentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F66F852A9F87FF00C41405 /* GarmentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentsUITests.swift; sourceTree = "<group>"; };
 		93F66F872A9F87FF00C41405 /* GarmentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93F66F952A9F881F00C41405 /* Garments.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Garments.xcdatamodel; sourceTree = "<group>"; };
+		93F66F972A9F889300C41405 /* GarmentsDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentsDataController.swift; sourceTree = "<group>"; };
+		93F66F992A9F8B1500C41405 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		93F66F9B2A9F8CB200C41405 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				93F66F6A2A9F87FE00C41405 /* GarmentsApp.swift */,
-				93F66F6C2A9F87FE00C41405 /* ContentView.swift */,
+				93F66F6C2A9F87FE00C41405 /* HomeView.swift */,
+				93F66F992A9F8B1500C41405 /* ListView.swift */,
+				9394B8572ABCC6E900BCDE88 /* NewHomeView.swift */,
+				9394B8592ABCC70A00BCDE88 /* NewListView.swift */,
+				93F66F9B2A9F8CB200C41405 /* AddView.swift */,
+				93F66F972A9F889300C41405 /* GarmentsDataController.swift */,
+				93F66F942A9F881F00C41405 /* Garments.xcdatamodeld */,
 				93F66F6E2A9F87FF00C41405 /* Assets.xcassets */,
 				93F66F702A9F87FF00C41405 /* Preview Content */,
 			);
@@ -191,7 +209,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					93F66F662A9F87FE00C41405 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -257,7 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F66F6D2A9F87FE00C41405 /* ContentView.swift in Sources */,
+				93F66F962A9F881F00C41405 /* Garments.xcdatamodeld in Sources */,
+				93F66F6D2A9F87FE00C41405 /* HomeView.swift in Sources */,
+				93F66F9C2A9F8CB200C41405 /* AddView.swift in Sources */,
+				93F66F9A2A9F8B1500C41405 /* ListView.swift in Sources */,
+				9394B8582ABCC6E900BCDE88 /* NewHomeView.swift in Sources */,
+				9394B85A2ABCC70A00BCDE88 /* NewListView.swift in Sources */,
+				93F66F982A9F889300C41405 /* GarmentsDataController.swift in Sources */,
 				93F66F6B2A9F87FE00C41405 /* GarmentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +355,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -391,6 +416,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -583,6 +609,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93F66F942A9F881F00C41405 /* Garments.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93F66F952A9F881F00C41405 /* Garments.xcdatamodel */,
+			);
+			currentVersion = 93F66F952A9F881F00C41405 /* Garments.xcdatamodel */;
+			path = Garments.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 93F66F5F2A9F87FE00C41405 /* Project object */;
 }
